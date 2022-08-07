@@ -1,0 +1,214 @@
+ @import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+
+                
+:root{
+    --pink-bg: #fdf4f4;
+    --wine-color: #E7332B;
+    --grey-txt-color: #514949;
+    --hr-color: #DCDBDB;
+    --header-black: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+    color: var(--grey-txt-color);
+    font-family: 'Averta-Regular', sans-serif;
+}
+.red-text{
+    color: var(--wine-color);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.hero{
+    height: auto;
+    background: url(./images/hero-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 3em 1.5em;
+}
+.hero h1{
+    margin: 2.5em;
+    position: relative;
+    white-space: nowrap;
+}
+.red-box{
+    margin-right: 3px;
+}
+.red-box::after{
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    width: 4px;
+    height: 4px;
+    margin: 0 2px;
+    border-radius: 5px;
+    opacity: .8;
+    background-color: var(--wine-color);
+}
+.hero h2{
+    margin: 2em;
+}
+.link-btn{
+    margin: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hero .btn{
+    padding: 1em .65em;
+    border: 1px solid var(--wine-color);
+    margin: 1em;
+}
+.wine-btn{
+    background-color: var(--wine-color);
+    color: #fff;
+    white-space: nowrap;
+}
+.wine-btn:hover{
+    color: var(--wine-color);
+    background: none;
+}
+.white-btn{
+    color: var(--wine-color);
+    white-space: nowrap;
+}
+.white-btn:hover{
+    background-color: var(--wine-color);
+    color: #fff;
+}
+.second-header{
+    text-align: center;
+    margin: 8em auto 3em;
+    padding: 1em;
+}
+.second-header p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+.text-box{
+    background: var(--pink-bg);
+    width: 95%;
+    margin: 1em auto;
+    padding: 5em 4em 7em 3em;
+}
+.text-box .head{
+    padding: 4em 1.2em;
+    background: #fff;
+    width: fit-content;
+    font-size: .7rem;
+    font-weight: bolder;
+    margin-bottom: 4em;
+}
+.text-box h1{
+    position: relative;
+    color: var(--header-black);
+}
+.text-box p{
+    margin-bottom: 2em;
+}
+footer{
+    width: 90%;
+    margin: 10em auto 7em;
+}
+.footer-flex{
+    display: flex;
+    margin-bottom: 5rem;
+}
+.footer-box h1{
+    position: relative;
+    font-size: 1.4rem;
+}
+.footer-box ul li{
+    padding-bottom: 1rem;
+}
+.footer-box ul :first-child{
+    font-weight: bolder;
+}
+.footer-box .icon{
+    display: flex;
+    gap: .5rem;
+}
+.footer-box .icon li img{
+     width: 1.5rem;
+}
+hr{
+    opacity: .5;
+}
+.footer-text{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 2rem;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 576px){
+    .second-header{
+        width: 400px;
+        margin: 8em auto 3em;
+    }
+}
+@media screen and (min-width: 768px){
+    .hero{
+        height: 800px;
+        text-align: center;
+    }
+    .hero-container{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: none;
+    }
+    
+}
+@media screen and (min-width: 992px){
+    .box-container{
+        padding: 1em;
+        display: flex;
+        gap: 1em;
+    }
+}
+@media screen and (min-width: 1200px){
+    .box-container{
+        background: url(./images/zuri.png) right no-repeat, 
+                    url(./images/zuri\(1\).png) left no-repeat;
+        background-size: contain, contain;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 2em;
+    }
+    .footer-box h1{
+    position: relative;
+    font-size: 2rem;
+    }
+    .footer-box ul li{
+        padding-bottom: 1rem;
+    }
+    .footer-box ul :first-child{
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+}
