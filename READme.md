@@ -25,8 +25,8 @@ This is the link to the main homepage which links to the other two webpages:
 - [Zuri Team homepage](https://zuri.team/)
 
 Below are the links to my repository and the live site hosted on GitHub:
-- Repository URL: [Add repository URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Repository URL here](https://github.com/Oyinade3/ZURI-website-clone)
+- [Live Site URL](https://oyinade3.github.io/ZURI-website-clone/)
 
 ## My process
 
