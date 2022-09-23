@@ -1,4 +1,4 @@
- @import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+@import url('http://fonts.cdnfonts.com/css/averta-standard');
 
                 
 :root{
@@ -18,7 +18,7 @@ ul{
 }
 body{
     color: var(--grey-txt-color);
-    font-family: 'Averta-Black', sans-serif;
+    font-family: 'Averta Standard', sans-serif;
 }
 .red-text{
     color: var(--wine-color);
