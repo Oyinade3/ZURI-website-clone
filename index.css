@@ -18,7 +18,7 @@ ul{
 }
 body{
     color: var(--grey-txt-color);
-    font-family: 'Averta Standard', sans-serif;
+    font-family: 'Averta Standard';
 }
 .red-text{
     color: var(--wine-color);
